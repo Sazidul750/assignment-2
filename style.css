@@ -441,11 +441,133 @@ transition: .6s;
 /* footer part end */
 
 /* mobile (small >=576px) responsive start */
-/* header part start */
+@media screen and (max-width: 576px) {
+  /* header part start */
+  header {
+    padding: 0;
+  }
+  .nav-title,
+  .nav-links,
+  .nav-btn {
+    display: none;
+  }
+  nav {
+    padding: 0;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    border: 0.6px solid orange;
+    padding: 12px 16px;
+    gap: 299px;
+  }
+  .m-tag {
+    font-size: 1.2rem;
+    margin-top: 14px;
+  }
+  .nav-icon {
+    display: initial;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 12px 16px;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  .banner-content {
+    margin: 0;
+  }
+  .banner-title {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    margin-bottom: 10px;
+}
+  /* header part end */
+  /* main part start */
 
-/* header part end */
-/* main part start */
-/* main part end */
-/* footer part start */
-/* footer part end */
+  .curriculum {
+    padding: 0 16px;
+  }
+  .curriculum-head {
+    padding: 40px 0 20px;
+  }
+  .curri-title {
+    font-size: 1.8rem;
+  }
+  .curriculum-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px 0;
+  }
+  .curriculum-card-main {
+    padding: 36px 81px;
+  }
+  .curriculum-icon {
+    display: none;
+  }
+  .stories {
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+  .stories-head {
+    padding: 40px 0 20px;
+  }
+  .stories-title{
+    font-size: 1.8rem;
+  }
+  .stories-big-card {
+    display: none;
+  }
+  .stories-card-img {
+    width: 100%;
+  }
+
+  .stories-card-date-btn {
+    bottom: 66px;
+    left: 25px;
+    padding: 6px 12px;
+    font-weight: 500;
+    font-size: 0.7rem;
+  }
+
+  .stories-card-title {
+    padding: 18px 22px 28px;
+    font-weight: 500;
+    font-size: 0.7rem;
+  }
+  .stories-view-btn {
+    width: 134px;
+    height: 30px;
+    padding: 20px 127px 40px;
+    margin: 0 auto;
+  }
+  .stories-btn {
+    padding: 7px 37px;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  /* main part end */
+  /* footer part start */
+  .footer {
+    padding: 60px 16px;
+  }
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-logo-description-text {
+    width: auto;
+  }
+  .footer-nav-link {
+    margin: 32px 0;
+  }
+  .footer-icon {
+    margin-bottom: 0;
+  }
+  /* footer part end */
+}
+
 /* mobile (small >=576px) responsive end */
