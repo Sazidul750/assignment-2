@@ -166,6 +166,84 @@ nav {
 /* header part end */
 
 /* main part start */
+/* curriculum section start */
+.curriculum {
+  padding: 0 140px;
+  margin: 0 auto;
+  background-image: url(./images/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.curriculum-head {
+  padding: 80px 0;
+}
+.curriculum-card {
+  gap: 28px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.curriculum-card-main {
+  background-image: linear-gradient(180deg, #def5ff, #ffff);
+  text-align: center;
+  padding: 52px 40px;
+  border-radius: 18px;
+  box-shadow: #def5ff 0px 1px 1px 1px;
+}
+.ccm-2 {
+  background-image: linear-gradient(180deg, #fff4dc, #ffff);
+  box-shadow: #fff4dc 0px 1px 1px 1px;
+}
+
+.ccm-3 {
+  background-image: linear-gradient(180deg, #eee1ff, #ffff);
+  box-shadow: #eee1ff 0px 1px 1px 1px;
+}
+
+.curriculum-card-title {
+  font-weight: 700;
+  font-size: 1.56rem;
+  margin-bottom: 23px;
+}
+.curriculum-link {
+  padding-top: 28px;
+  font-weight: 700;
+  font-size: 0.99rem;
+  color: #64c8ff;
+}
+.cl-2 {
+  color: #f0aa00;
+}
+.cl-3 {
+  color: #8700ff;
+}
+.curriculum-icon {
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 0 60px;
+}
+.chevron-left,
+.chevron-right {
+  padding: 17px 20px;
+  border: 1px solid #fea301;
+  font-size: 1.5rem;
+  border-radius: 50%;
+}
+
+.chevron-right:hover{
+background-color: #fff;
+color: #fea301;
+transition: .6s;
+}
+.chevron-left:hover{
+background-color: #fff;
+color: #fea301;
+transition: .6s;
+}
+
+/* curriculum section end */
 /* main part end */
 
 /* footer part start */
