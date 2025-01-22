@@ -459,7 +459,7 @@ transition: .6s;
     justify-content: space-between;
     align-items: center;
     border: 0.6px solid orange;
-    padding: 12px 22px;
+    margin: 12px 20px;
     
     gap: 287px;
 }
