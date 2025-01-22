@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-font {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* common css start */
+
+/* common css end */
+
+/* header part start */
+
+/* nav section start   */
+/* nav section end   */
+/* banner section start  */
+/* banner section end   */
+/* header part end */
+
+/* main part start */
+/* main part end */
+
+/* footer part start */
+/* footer part end */
+
+/* mobile (small >=576px) responsive start */
+/* header part start */
+/* header part end */
+/* main part start */
+/* main part end */
+/* footer part start */
+/* footer part end */
+/* mobile (small >=576px) responsive end */
