@@ -457,10 +457,12 @@ transition: .6s;
   .logo {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border: 0.6px solid orange;
-    padding: 12px 16px;
-    gap: 299px;
-  }
+    padding: 12px 22px;
+    
+    gap: 287px;
+}
   .m-tag {
     font-size: 1.2rem;
     margin-top: 14px;
