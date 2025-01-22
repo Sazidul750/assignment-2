@@ -359,6 +359,85 @@ transition: .6s;
 /* main part end */
 
 /* footer part start */
+.footer {
+  background-color: #01acfd;
+  padding: 123px 228px 74px 140px;
+  margin: 0 auto;
+  color: #fff;
+}
+.footer-content {
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo-description-text {
+  width: 400px;
+}
+.logo-name {
+  gap: 10px;
+  margin-bottom: 35px;
+}
+.footer-name {
+  font-weight: 700;
+  font-size: 2.62rem;
+  line-height: 2.3rem;
+}
+.footer-nav-link-title {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 32px;
+}
+.footer-nav {
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-link {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.footer-icon-title {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 32px;
+}
+.footer-icon {
+  margin-bottom: 136px;
+}
+.footer-icons {
+  justify-content: space-between;
+  gap: 10px;
+}
+.footer-facebook {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #435f9c;
+}
+.footer-basketball {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #eb4b88;
+}
+.footer-twitter {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #1da1f2;
+}
+.footer-google {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #de4d3a;
+}
 /* footer part end */
 
 /* mobile (small >=576px) responsive start */
