@@ -135,6 +135,33 @@ nav {
 }
 /* nav section end   */
 /* banner section start  */
+.banner {
+  justify-content: space-between;
+  gap: 50px;
+}
+.banner-content {
+  margin: 122px 0 100px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 3.81rem;
+  margin-bottom: 24px;
+}
+.banner-btn {
+  padding: 10px 47px;
+  font-weight: 700;
+  font-size: 1.25rem;
+  border: 1px solid gray;
+  border-radius: 12px;
+  margin-top: 24px;
+}
+.banner-btn:hover {
+  background-color: #fff;
+  color: #111111;
+
+  transition: 0.3s;
+}
 /* banner section end   */
 /* header part end */
 
@@ -146,6 +173,7 @@ nav {
 
 /* mobile (small >=576px) responsive start */
 /* header part start */
+
 /* header part end */
 /* main part start */
 /* main part end */
